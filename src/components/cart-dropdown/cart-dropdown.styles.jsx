@@ -18,8 +18,8 @@ z-index: 5;
 ${BaseButton},
 ${GoogleSignInButton},
 ${InvertedButton} {
-    margin - top: auto;
-    font - size: 12px;
+    margin-top: auto;
+    font-size: 12px;
 }
 `;
 
