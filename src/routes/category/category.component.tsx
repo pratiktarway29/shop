@@ -10,7 +10,7 @@ import {
     selectCategoriesIsLoading,
 } from '../../store/categories/category.selector';
 
-import { CategoryContainer, Title } from './category.styles';
+import { CategoryContainer, CategoryItems, Title } from './category.styles';
 
 type CategoryRouteParams = {
     category: string;
@@ -34,12 +34,16 @@ const Category = () => {
             {isLoading ? (
                 <Spinner />
             ) : (
-                <CategoryContainer>
-                    {products &&
-                        products.map((product) => (
-                            <ProductCard key={product.id} product={product} />
-                        ))}
-                </CategoryContainer>
+                <div>
+                    <CategoryContainer>
+                        <CategoryItems>
+                            {products &&
+                                products.map((product) => (
+                                    <ProductCard key={product.id} product={product} />
+                                ))}
+                        </CategoryItems>
+                    </CategoryContainer>
+                </div>
             )}
         </Fragment>
     );
