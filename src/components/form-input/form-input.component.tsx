@@ -10,7 +10,7 @@ const FormInput: FC<FormInputProps> = ({ label, ...otherProps }) => {
             <Input {...otherProps} />
             {label && (
                 <FormInputLabel
-                    shrink={Boolean(
+                    $shrink={Boolean(
                         otherProps.value &&
                         typeof otherProps.value === 'string' &&
                         otherProps.value.length

@@ -21,6 +21,11 @@ ${InvertedButton} {
     margin-top: auto;
     font-size: 12px;
 }
+
+@media screen and (max-width: 800px) {
+    top: 70px;
+    right: 20px;
+  }
 `;
 
 export const EmptyMessage = styled.span`
