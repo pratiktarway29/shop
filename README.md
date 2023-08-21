@@ -1,4 +1,4 @@
-# Shop Project README
+# Shop App
 
 This project is a fully functional e-commerce web application built using React, TypeScript, Redux, Reselect, Redux Persist, Redux-Saga, Firebase, JavaScript, SCSS, CSS, and HTML. The application allows users to perform various actions like signing up, signing in, adding products to the cart, increasing/decreasing product quantities, and deleting items. The design is also mobile-friendly and supports multiple categories of clothing products.
 
